@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Product Landing Page</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+			integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./product.css" />
+	</head>
+	<body>
+		<!-- nav bar -->
+		<header id="header">
+			<div id="img">
+				<img
+					id="header-img"
+					src="https://lh3.googleusercontent.com/proxy/u6h99kJ59f8KbAtaR0fGnytPfKPHHy3fWDvNOZyRprtC7rTVcEiNwMx1QTt06vHxNOT99epR62eRvNk3I7aezqakHuuvQuQ"
+					alt="hat"
+				/>
+				<h1>Magical World</h1>
+			</div>
+
+			<nav id="nav-bar">
+				<ul>
+					<li>
+						<a href="#about" class="nav-link">About</a
+						><i class="fas fa-sign-language" style="font-size: 24px"></i>
+					</li>
+					<li>
+						<a href="#features" class="nav-link">Features</a
+						><i class="fas fa-phone" style="font-size: 24px"></i>
+					</li>
+					<li>
+						<a href="#pricing" class="nav-link">Pricing</a
+						><i class="fab fa-google-wallet" style="font-size: 24px"></i>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="container">
+			<!-- email -->
+			<section class="hero">
+				<h2>For Latest Updates</h2>
+				<form id="form" action="https://www.freecodecamp.com/email-submit">
+					<input
+						name="email"
+						id="email"
+						type="email"
+						placeholder="Enter your Email"
+						required
+					/>
+					<br />
+
+					<input type="submit" id="submit" value="Get Started" class="btn" />
+				</form>
+			</section>
+			<!-- Video -->
+
+			<section>
+				<div id="about">
+					<iframe
+						id="video"
+						width="1044"
+						height="587"
+						src="https://www.youtube.com/embed/ziI1_AxOww0"
+						frameborder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</div>
+			</section>
+			<!-- features -->
+			<section id="features">
+				<div class="flex">
+					<div class="icon">
+						<i class="fa fa-3x fa-fire"></i>
+					</div>
+					<div class="desc">
+						<h2>Premium Materials</h2>
+						<p>
+							Our products use the shiniest and durable material which is
+							sourced locally. This will increase the longevity of your
+							purchase.
+						</p>
+					</div>
+				</div>
+				<div class="flex">
+					<div class="icon">
+						<i class="fa fa-3x fa-truck"></i>
+					</div>
+					<div class="desc">
+						<h2>Fast Shipping</h2>
+						<p>
+							We make sure you recieve your product as soon as we have finished
+							making it. We also provide free returns if you are not satisfied.
+						</p>
+					</div>
+				</div>
+				<div class="flex">
+					<div class="icon">
+						<i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+					</div>
+					<div class="desc">
+						<h2>Quality Assurance</h2>
+						<p>
+							For every purchase you make, we will ensure there are no damages
+							or faults and we will check and test the durability of product.
+						</p>
+					</div>
+				</div>
+			</section>
+			<!-- pricing -->
+			<section id="pricing">
+				<div class="product">
+					<div class="type">
+						<h2>Hats</h2>
+						<p>Starting From 60$</p>
+						<ul>
+							<li>lorem ipsum</li>
+							<li>lorem ipsum</li>
+							<li>lorem ipsum</li>
+							<li>lorem ipsum</li>
+						</ul>
+					</div>
+				</div>
+				<div class="product">
+					<div class="type">
+						<h2>Robes</h2>
+						<p>Starting From 300$</p>
+						<ul>
+							<li>lorem ipsum</li>
+							<li>lorem ipsum</li>
+							<li>lorem ipsum</li>
+							<li>lorem ipsum</li>
+						</ul>
+					</div>
+				</div>
+				<div class="product">
+					<div class="type">
+						<h2>Scarfs</h2>
+						<p>Starting From 100$</p>
+						<ul>
+							<li>lorem ipsum</li>
+							<li>lorem ipsum</li>
+							<li>lorem ipsum</li>
+							<li>lorem ipsum</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- footer -->
+		<footer>
+			<ul>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<span>&copy; Copyright 2020, Magical World</span>
+		</footer>
+	</body>
+</html>
